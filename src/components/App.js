@@ -15,7 +15,7 @@ const temperatureColor = weatherData.temperature > threshold ? "red" : "blue" ;
     <div>
         {/* Do not remove the main div */}
         <h1>Weather app</h1>
-        <p >Temperature: <span style={{color:temperatureColor}}>{ weatherData.temperature }</span> </p>
+        <p >Temperature: <span style={{color:temperatureColor}}>{weatherData.temperature}</span></p>
         <p>Condition: { weatherData.condition}</p>
        
     </div>
